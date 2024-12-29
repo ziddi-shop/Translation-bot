@@ -27,7 +27,7 @@ async def welcome(event):
         "✨ Here are some things I can do:\n"
         "- Translate your messages into any language\n"
         "Type `/trn <language that you need to translate to> <your msg that you want to be translated>` to start using the bot."
-        "ex: /trn ar Hello"
+        "ex: /trn hi नमस्ते"
     )
     #Reply With Start Message If Someone Send /start
     await event.reply(start_message)
